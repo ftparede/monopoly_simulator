@@ -1,0 +1,18 @@
+name,type,number,description
+Advance To Go,absoluteM,0,Advance to Go (Collect $200)
+Bank,receive,200,Bank error in your favor—Collect $200
+Doctor,give,-50,Doctor's fee—Pay $50
+Stock,receive,50,From sale of stock you get $50
+Get out of Jail,key,,Get Out of Jail Free
+Go to Jail,absoluteM,10,Go to Jail–Go directly to jail–Do not pass Go–Do not collect $200
+Opera,conditionReceive,,Grand Opera Night—Collect $50 from every player for opening night seats
+Holiday,receive,100,Holiday Fund matures—Receive $100
+Income,receive,20,Income tax refund–Collect $20
+Birthday,receive,10,It is your birthday—Collect $10
+Insurance,receive,100,Life insurance matures–Collect $100
+Hospital,give,-100,Pay hospital fees of $100
+School,give,-150,Pay school fees of $150
+Consultancy,receive,25,Receive $25 consultancy fee
+Street Repairs,conditionGive,,You are assessed for street repairs–$40 per house–$115 per hotel
+Beauty,receive,10,You have won second prize in a beauty contest–Collect $10
+Inherit,receive,100,You inherit $100
