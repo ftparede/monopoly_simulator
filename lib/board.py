@@ -31,7 +31,8 @@ class board:
         # analytics 1: amount of times every position is visited
         self.statPositions = pd.DataFrame(index = range(self.boardRef.index.shape[0]))
         self.statPositions["q_visits"] = 0
-        self.statPositions["q_visits"].iloc[0] = len(self.playerOrder)
+        # prob of landing, do not include the starting pos
+        # self.statPositions["q_visits"].iloc[0] = len(self.playerOrder)
         
         
     def drawChance(self):
